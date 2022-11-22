@@ -9,7 +9,7 @@ import math
 
 def fill_data_1(d,hyper):
     d_copy = d.copy().T
-    print(d_copy.shape)
+    # print(d_copy.shape)
     # range_coeff = (d[1][len(d[0])] - d[1][0])/10000
     d = d.tolist()
     # d2 = d.copy()
